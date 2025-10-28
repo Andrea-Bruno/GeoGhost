@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name" translatable="false">Fake Traveler</string>
+  <string name="app_name" translatable="false">Geo Ghost</string>
   <!--  Strings from activity_main.xml layout  -->
   <!-- Latitude abbreviation  -->
   <string name="ActivityMain_Lat">Breitengrad</string>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name" translatable="false">Fake Traveler</string>
+  <string name="app_name" translatable="false">Geo Ghost</string>
   <!--  Strings from activity_main.xml layout  -->
   <!-- Latitude abbreviation  -->
   <string name="ActivityMain_Lat">Lat</string>
@@ -23,7 +23,7 @@
   <string name="ActivityMore_SourceCode">Source code https://github.com/Andrea-Bruno/GeoGhost</string>
   <string name="ActivityMore_Bugs">Report any bug to https://github.com/Andrea-Bruno/GeoGhost/issues</string>
   <string name="ActivityMore_IconLicense">This material is made available as open-source, promoting transparency, collaboration, and free access for everyone.</string>
-  <string name="ActivityMore_HowToInstructions">Long press where you want to be located in the map and press Apply button. The location will be mocked one or more times accordingly to configuration below. While the mock is running, you can change the location just by long pressing where you to be. To stop mocking the location, press the Stop button. Note: you must enable Fake Traveler as mock location app in Developers options.</string>
+  <string name="ActivityMore_HowToInstructions">Long press where you want to be located in the map and press Apply button. The location will be mocked one or more times accordingly to configuration below. While the mock is running, you can change the location just by long pressing where you to be. To stop mocking the location, press the Stop button. Note: you must enable Geo Ghost as mock location app in Developers options.</string>
   <string name="ActivityMore_DMockLatLon">Mock movement? (1 / 1 000 000°, 0 = no)</string>
   <string name="ActivityMore_MapProvider">Map Provider (e.g., \'OpenStreetMap\')</string>
   <string name="ActivityMore_MapProviderInfo">Requires restart - a list of possible values can be found here: https://leaflet-extras.github.io/leaflet-providers/preview/</string>
