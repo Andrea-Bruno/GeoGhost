@@ -1,4 +1,4 @@
-package cl.coders.faketraveler;
+package gpl.freesoftware.geogost;
 
 import java.util.Locale;
 

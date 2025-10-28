@@ -1,9 +1,9 @@
-package cl.coders.faketraveler;
+package gpl.freesoftware.geogost;
 
-import static cl.coders.faketraveler.MainActivity.DECIMAL_FORMAT;
-import static cl.coders.faketraveler.MainActivity.sharedPrefKey;
-import static cl.coders.faketraveler.SharedPrefsUtil.getDouble;
-import static cl.coders.faketraveler.SharedPrefsUtil.putDouble;
+import static gpl.freesoftware.geogost.MainActivity.DECIMAL_FORMAT;
+import static gpl.freesoftware.geogost.MainActivity.sharedPrefKey;
+import static gpl.freesoftware.geogost.SharedPrefsUtil.getDouble;
+import static gpl.freesoftware.geogost.SharedPrefsUtil.putDouble;
 
 import android.content.Context;
 import android.content.SharedPreferences;

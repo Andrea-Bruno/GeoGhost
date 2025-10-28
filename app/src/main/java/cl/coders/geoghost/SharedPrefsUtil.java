@@ -1,6 +1,6 @@
-package cl.coders.faketraveler;
+package gpl.freesoftware.geogost;
 
-import static cl.coders.faketraveler.MainActivity.sharedPrefKey;
+import static gpl.freesoftware.geogost.MainActivity.sharedPrefKey;
 
 import android.content.Context;
 import android.content.SharedPreferences;

@@ -1,6 +1,6 @@
-package cl.coders.faketraveler;
+package gpl.freesoftware.geogost;
 
-import static cl.coders.faketraveler.MainActivity.SourceChange.CHANGE_FROM_MAP;
+import static gpl.freesoftware.geogost.MainActivity.SourceChange.CHANGE_FROM_MAP;
 
 import android.util.Log;
 import android.webkit.JavascriptInterface;

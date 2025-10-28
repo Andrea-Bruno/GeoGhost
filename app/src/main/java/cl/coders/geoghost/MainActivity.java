@@ -1,12 +1,12 @@
-package cl.coders.faketraveler;
+package gpl.freesoftware.geogost;
 
-import static cl.coders.faketraveler.MainActivity.SourceChange.CHANGE_FROM_EDITTEXT;
-import static cl.coders.faketraveler.MainActivity.SourceChange.CHANGE_FROM_MAP;
-import static cl.coders.faketraveler.MainActivity.SourceChange.LOAD;
-import static cl.coders.faketraveler.MainActivity.SourceChange.NONE;
-import static cl.coders.faketraveler.SharedPrefsUtil.getDouble;
-import static cl.coders.faketraveler.SharedPrefsUtil.migrateOldPreferences;
-import static cl.coders.faketraveler.SharedPrefsUtil.putDouble;
+import static gpl.freesoftware.geogost.MainActivity.SourceChange.CHANGE_FROM_EDITTEXT;
+import static gpl.freesoftware.geogost.MainActivity.SourceChange.CHANGE_FROM_MAP;
+import static gpl.freesoftware.geogost.MainActivity.SourceChange.LOAD;
+import static gpl.freesoftware.geogost.MainActivity.SourceChange.NONE;
+import static gpl.freesoftware.geogost.SharedPrefsUtil.getDouble;
+import static gpl.freesoftware.geogost.SharedPrefsUtil.migrateOldPreferences;
+import static gpl.freesoftware.geogost.SharedPrefsUtil.putDouble;
 
 import android.annotation.SuppressLint;
 import android.content.ComponentName;
@@ -45,7 +45,7 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements ServiceConnection {
 
-    public static final String sharedPrefKey = "cl.coders.faketraveler.sharedprefs";
+    public static final String sharedPrefKey = "gpl.freesoftware.geogost.sharedprefs";
     public static final DecimalFormat DECIMAL_FORMAT = new DecimalFormat("0.######", DecimalFormatSymbols.getInstance(Locale.ROOT));
 
     private MaterialButton buttonApplyStop;

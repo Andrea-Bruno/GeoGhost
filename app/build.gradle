@@ -6,7 +6,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_21
     }
     defaultConfig {
-        applicationId = "cl.coders.faketraveler"
+        applicationId = "gpl.freesoftware.geogost"
         minSdk = 21
         compileSdk = 36
         targetSdk = 36
@@ -19,7 +19,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    namespace = 'cl.coders.faketraveler'
+    namespace = 'gpl.freesoftware.geogost'
 }
 
 dependencies {
