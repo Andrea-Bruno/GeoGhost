@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name" translatable="false">Fake Traveler</string>
+  <!--  Strings from activity_main.xml layout  -->
+  <!-- Latitude abbreviation  -->
+  <string name="ActivityMain_Lat">Breitengrad</string>
+  <!-- Longitude abbreviation  -->
+  <string name="ActivityMain_Long">Längengrad</string>
+  <string name="ActivityMain_Apply">Anwenden</string>
+  <!-- Apply button then becomes Stop button through java code-->
+  <string name="ActivityMain_Stop">Stopp</string>
+  <!--  Strings from MainActivity.java  -->
+  <string name="MainActivity_NoLatLong">Kein Längen- und Breitengrad. Halten Sie den gewünschten Standort auf der Karte gedrückt.</string>
+  <string name="MainActivity_MockApplied">Simulierter Standort gesetzt.</string>
+  <string name="MainActivity_MockNotApplied">Simulierter Standort kann nicht angewendet werden. Aktivieren Sie die Einstellung für simulierte Standorte in den Entwickleroptionen!</string>
+  <string name="MainActivity_MockLocRunning">Standort Simulation läuft.</string>
+  <string name="MainActivity_MockStopped">Standort Simulation beendet.</string>
+  <!--  Strings from activity_more.xml layout  -->
+  <string name="ActivityMore_HowToTittle">Bedienungsanleitung</string>
+  <string name="ActivityMore_HowManyTimes">Wie oft möchten Sie den Standort simulieren? (0 = unbegrenzt)</string>
+  <string name="ActivityMore_TimeInterval">Zeit zwischen jeder Simulation</string>
+  <string name="ActivityMore_Copyright">Copyright 2018\-2025 Matías Castillo Felmer and contributors</string>
+  <string name="ActivityMore_SourceCode">Quellcode verfügbar unter: https://github.com/mcastillof/FakeTraveler</string>
+  <string name="ActivityMore_Bugs">Bugs melden unter: https://github.com/mcastillof/FakeTraveler/issues</string>
+  <string name="ActivityMore_IconLicense">Das Launcher-Icon wurde von @ArtistDev44 erstellt - vielen Dank für deine Arbeit!</string>
+  <string name="ActivityMore_HowToInstructions">Wählen Sie den gewünschten Standort durch langes Gedrückt-Halten auf der Karte aus. Klicken Sie auf "Anwenden". Der Standort wird je nach Einstellung ein- oder mehrmals simuliert. Während die Simulation läuft, können Sie jederzeit einen neuen Standort auswählen. Um die Simulation anzuhalten drücken Sie "Stopp". Hinweis: Um diese App nutzen zu können, müssen Sie sie als Simulierte-Standort-App in den Entwickleroptionen aktivieren.</string>
+  <string name="ActivityMore_DMockLatLon">Bewegung simulieren? (1 / 1 000 000°, 0 = nein)</string>
+  <string name="ActivityMore_MapProvider">Kartenanbieter (z. B. \'OpenStreetMap.DE\')</string>
+  <string name="ActivityMore_MapProviderInfo">Benötigt Neustart - eine Liste der möglichen Werte finden Sie hier: https://leaflet-extras.github.io/leaflet-providers/preview/</string>
+  <string name="ActivityMore_LeafletLicense">Sowohl &lt;a href="https://github.com/Leaflet/Leaflet/blob/main/LICENSE"&gt;Leaflet&lt;/a&gt; als auch &lt;a href="https://github.com/leaflet-extras/leaflet-providers/blob/master/license.md"&gt;Leaflet-providers&lt;/a&gt; sind unter der BSD 2-Clause License lizenziert.</string>
+</resources>

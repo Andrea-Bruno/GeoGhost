@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name" translatable="false">Fake Traveler</string>
+  <!--  Strings from activity_main.xml layout  -->
+  <!-- Latitude abbreviation  -->
+  <string name="ActivityMain_Lat">Lat</string>
+  <!-- Longitude abbreviation  -->
+  <string name="ActivityMain_Long">Long</string>
+  <string name="ActivityMain_Apply">Apply</string>
+  <!-- Apply button then becomes Stop button through java code-->
+  <string name="ActivityMain_Stop">Stop</string>
+  <!--  Strings from MainActivity.java  -->
+  <string name="MainActivity_NoLatLong">No latitude/longitude values. Long press in the map where you want to be located.</string>
+  <string name="MainActivity_MockApplied">Mocked location applied.</string>
+  <string name="MainActivity_MockNotApplied">Mocked location not applied. You must enable mock location in developer settings!</string>
+  <string name="MainActivity_MockLocRunning">Mocking location service running.</string>
+  <string name="MainActivity_MockStopped">Mocking stopped.</string>
+  <!--  Strings from activity_more.xml layout  -->
+  <string name="ActivityMore_HowToTittle">How to use it?</string>
+  <string name="ActivityMore_HowManyTimes">How many times you want to mock the location? (0 = infinite)</string>
+  <string name="ActivityMore_TimeInterval">How many seconds between every mock?</string>
+  <string name="ActivityMore_Copyright">Copyright 2018\-2025 Matías Castillo Felmer and contributors</string>
+  <string name="ActivityMore_SourceCode">Source code available in https://github.com/mcastillof/FakeTraveler</string>
+  <string name="ActivityMore_Bugs">Report bugs to https://github.com/mcastillof/FakeTraveler/issues</string>
+  <string name="ActivityMore_IconLicense">The launcher icon was created by @ArtistDev44 - thank you very much for your work!</string>
+  <string name="ActivityMore_HowToInstructions">Long press where you want to be located in the map and press Apply button. The location will be mocked one or more times accordingly to configuration below. While the mock is running, you can change the location just by long pressing where you to be. To stop mocking the location, press the Stop button. Note: you must enable Fake Traveler as mock location app in Developers options.</string>
+  <string name="ActivityMore_DMockLatLon">Mock movement? (1 / 1 000 000°, 0 = no)</string>
+  <string name="ActivityMore_MapProvider">Map Provider (e.g., \'OpenStreetMap\')</string>
+  <string name="ActivityMore_MapProviderInfo">Requires restart - a list of possible values can be found here: https://leaflet-extras.github.io/leaflet-providers/preview/</string>
+  <string name="ActivityMore_LeafletLicense">Both &lt;a href="https://github.com/Leaflet/Leaflet/blob/main/LICENSE"&gt;Leaflet&lt;/a&gt; and &lt;a href="https://github.com/leaflet-extras/leaflet-providers/blob/master/license.md"&gt;Leaflet-providers&lt;/a&gt; are licensed under the BSD 2-Clause License.</string>
+</resources>

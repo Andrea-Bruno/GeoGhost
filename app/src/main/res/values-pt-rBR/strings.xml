@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--  Strings from activity_main.xml layout  -->
+  <!-- Latitude abbreviation  -->
+  <string name="ActivityMain_Lat">Lat</string>
+  <!-- Longitude abbreviation  -->
+  <string name="ActivityMain_Long">Long</string>
+  <string name="ActivityMain_Apply">Aplicar</string>
+  <!-- Apply button then becomes Stop button through java code-->
+  <string name="ActivityMain_Stop">Parar</string>
+  <!--  Strings from MainActivity.java  -->
+  <string name="MainActivity_NoLatLong">Não existem valores para lat or long. Mantenha pressionado no mapa onde deseja se pocisionar.</string>
+  <string name="MainActivity_MockApplied">Posições fictícias aplicadas.</string>
+  <string name="MainActivity_MockNotApplied">Posições fictícias não aplicadas. Ativar suporte para app de local fictício nas configurações do sistema, modo programador!</string>
+  <string name="MainActivity_MockLocRunning">Serviço de posiciones fictícias rodando.</string>
+  <string name="MainActivity_MockStopped">Mudanças desativadas.</string>
+  <!--  Strings from activity_more.xml layout  -->
+  <string name="ActivityMore_HowToTittle">Como usar?</string>
+  <string name="ActivityMore_HowManyTimes">Quantas vezes deseja mudar sua localização? (0 = infinito)</string>
+  <string name="ActivityMore_TimeInterval">Quantos segundos entre cada mudança?</string>
+  <string name="ActivityMore_Copyright">Todos os direitos reservados 2018\-2025 Matías Castillo Felmer e contribuidores</string>
+  <string name="ActivityMore_SourceCode">Código fonte disponível em https://github.com/mcastillof/FakeTraveler</string>
+  <string name="ActivityMore_Bugs">Notifique problemas em https://github.com/mcastillof/FakeTraveler/issues</string>
+  <string name="ActivityMore_IconLicense">The launcher icon was created by @ArtistDev44 - thank you very much for your work!</string>
+  <string name="ActivityMore_HowToInstructions">Pressione no mapa o local onde deseja a configuração fictícia e então aperte o botão aplicar. A configuração se aplicará uma ou mais vezes e dependerá das configurações abaixo. Enquanto a aplicação estiver ativa, poderá mudar de lugar ao apertar no local desejado no mapa. Presione o botão parar para finalizar e mudança. Nota: Sempre ativar o Fake Traveler como aplicação para app de local fictício nas configurações do sistema, modo programador.</string>
+  <string name="ActivityMore_DMockLatLon">Mock movement? (1 / 1 000 000°, 0 = no)</string>
+  <string name="ActivityMore_MapProvider">Map Provider (e.g., \'OpenStreetMap\')</string>
+  <string name="ActivityMore_MapProviderInfo">Requires restart - a list of possible values can be found here: https://leaflet-extras.github.io/leaflet-providers/preview/</string>
+  <string name="ActivityMore_LeafletLicense">Both &lt;a href="https://github.com/Leaflet/Leaflet/blob/main/LICENSE"&gt;Leaflet&lt;/a&gt; and &lt;a href="https://github.com/leaflet-extras/leaflet-providers/blob/master/license.md"&gt;Leaflet-providers&lt;/a&gt; are licensed under the BSD 2-Clause License.</string>
+</resources>

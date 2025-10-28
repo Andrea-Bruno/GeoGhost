@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Mock Position</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="polyfill.js"></script>
+
+    <link rel="stylesheet" href="leaflet.css">
+    <script src="leaflet.js"></script>
+    <script src="leaflet-providers.js"></script>
+    <script src="search.js"></script>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        #search {
+            padding: 10px; /* Add some padding around the input */
+            box-sizing: border-box; /* Include padding in element's total width and height */
+        }
+        #address_input {
+            font-size: 16pt;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #map {
+            flex-grow: 1;
+            width: 100%;
+        }
+        :root {
+            --dark-mode-filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+        }
+        @media (prefers-color-scheme: dark) {
+            .map-tiles,
+            .leaflet-layer,
+            .leaflet-control-zoom-in,
+            .leaflet-control-zoom-out {
+                filter:var(--dark-mode-filter, none);
+            }
+            #search,
+            .leaflet-container {
+                background: #000
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div id="search" style="display: flex">
+    <input type="text" id="address_input" name="address_input"
+           placeholder="Search an address: Street, City"
+           style="font-size:16pt;flex-grow:1;margin-right:5px">
+    <button style="font-size:16pt;width:50px" onclick="searchForAddress()">🔍</button>
+</div>
+
+<div id='map'></div>
+
+<script src="init.js"></script>
+</body>
+</html>

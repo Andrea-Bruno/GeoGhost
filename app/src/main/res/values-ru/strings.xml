@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--  Strings from activity_main.xml layout  -->
+  <!-- Latitude abbreviation  -->
+  <string name="ActivityMain_Lat">Широта</string>
+  <!-- Longitude abbreviation  -->
+  <string name="ActivityMain_Long">Долгота</string>
+  <string name="ActivityMain_Apply">Применить</string>
+  <!-- Apply button then becomes Stop button through java code-->
+  <string name="ActivityMain_Stop">Стоп</string>
+  <!--  Strings from MainActivity.java  -->
+  <string name="MainActivity_NoLatLong">Нет значения широты и долготы. Длительное нажатие на карте, где вы хотите быть расположены.</string>
+  <string name="MainActivity_MockApplied">Изменённое местоположение применено.</string>
+  <string name="MainActivity_MockNotApplied">Изменённое местоположение не применяется. Вы должны включить изменение местоположения в настройках разработчика!</string>
+  <string name="MainActivity_MockLocRunning">Служба размещения местоположения работает.</string>
+  <string name="MainActivity_MockStopped">Изменение остановлено.</string>
+  <!--  Strings from activity_more.xml layout  -->
+  <string name="ActivityMore_HowToTittle">Как это использовать?</string>
+  <string name="ActivityMore_HowManyTimes">Сколько раз вы хотите изменять локацию? (0 = бесконечно)</string>
+  <string name="ActivityMore_TimeInterval">Сколько секунд между каждым изменением?</string>
+  <string name="ActivityMore_Copyright">Copyright 2018\-2025 Матиас Кастильо Фелмер и авторы</string>
+  <string name="ActivityMore_SourceCode">Исходный код доступен на https://github.com/mcastillof/FakeTraveler.</string>
+  <string name="ActivityMore_Bugs">Сообщить об ошибках на https://github.com/mcastillof/FakeTraveler/issues</string>
+  <string name="ActivityMore_IconLicense">The launcher icon was created by @ArtistDev44 - thank you very much for your work!</string>
+  <string name="ActivityMore_HowToInstructions">Длительное нажатие, где вы хотите быть на карте и нажмите кнопку Применить. Место будет проверено один или несколько раз в соответствии с приведенной ниже конфигурацией. Пока изменение работает, вы можете изменить местоположение, просто нажав и удерживая его там, где вы находитесь. Чтобы прекратить издеваться над местоположением, нажмите кнопку Стоп. Примечание: вы должны включить Fake Traveler в качестве приложения с фиктивным местоположением в опциях для разработчиков.</string>
+  <string name="ActivityMore_DMockLatLon">Mock movement? (1 / 1 000 000°, 0 = no)</string>
+  <string name="ActivityMore_MapProvider">Map Provider (e.g., \'OpenStreetMap\')</string>
+  <string name="ActivityMore_MapProviderInfo">Requires restart - a list of possible values can be found here: https://leaflet-extras.github.io/leaflet-providers/preview/</string>
+  <string name="ActivityMore_LeafletLicense">Both &lt;a href="https://github.com/Leaflet/Leaflet/blob/main/LICENSE"&gt;Leaflet&lt;/a&gt; and &lt;a href="https://github.com/leaflet-extras/leaflet-providers/blob/master/license.md"&gt;Leaflet-providers&lt;/a&gt; are licensed under the BSD 2-Clause License.</string>
+</resources>
