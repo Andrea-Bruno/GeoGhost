@@ -1,4 +1,4 @@
-﻿name: Build & Release FOSS APK with Metadata
+﻿name: Build & Release APK with Metadata
 
 on:
     workflow_dispatch:
@@ -34,7 +34,7 @@ jobs:
               run: chmod +x ./gradlew
 
             - name: Build APK with Gradle
-              run: ./gradlew :app:assembleProdFossWebsiteRelease
+              run: ./gradlew :app:assembleRelease
 
             - name: List merged manifest files
               run: find app/build/intermediates/merged_manifests/ -name "AndroidManifest.xml"
