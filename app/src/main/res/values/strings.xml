@@ -19,10 +19,10 @@
   <string name="ActivityMore_HowToTittle">How to use it?</string>
   <string name="ActivityMore_HowManyTimes">How many times you want to mock the location? (0 = infinite)</string>
   <string name="ActivityMore_TimeInterval">How many seconds between every mock?</string>
-  <string name="ActivityMore_Copyright">Copyright 2018\-2025 Matías Castillo Felmer and contributors</string>
-  <string name="ActivityMore_SourceCode">Source code available in https://github.com/mcastillof/FakeTraveler</string>
-  <string name="ActivityMore_Bugs">Report bugs to https://github.com/mcastillof/FakeTraveler/issues</string>
-  <string name="ActivityMore_IconLicense">The launcher icon was created by @ArtistDev44 - thank you very much for your work!</string>
+  <string name="ActivityMore_Copyright">General Public License v3.0 - GNU Project</string>
+  <string name="ActivityMore_SourceCode">Source code https://github.com/Andrea-Bruno/GeoGhost</string>
+  <string name="ActivityMore_Bugs">Report any bug to https://github.com/Andrea-Bruno/GeoGhost/issues</string>
+  <string name="ActivityMore_IconLicense">This material is made available as open-source, promoting transparency, collaboration, and free access for everyone.</string>
   <string name="ActivityMore_HowToInstructions">Long press where you want to be located in the map and press Apply button. The location will be mocked one or more times accordingly to configuration below. While the mock is running, you can change the location just by long pressing where you to be. To stop mocking the location, press the Stop button. Note: you must enable Fake Traveler as mock location app in Developers options.</string>
   <string name="ActivityMore_DMockLatLon">Mock movement? (1 / 1 000 000°, 0 = no)</string>
   <string name="ActivityMore_MapProvider">Map Provider (e.g., \'OpenStreetMap\')</string>

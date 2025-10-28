@@ -18,10 +18,10 @@
   <string name="ActivityMore_HowToTittle">Как это использовать?</string>
   <string name="ActivityMore_HowManyTimes">Сколько раз вы хотите изменять локацию? (0 = бесконечно)</string>
   <string name="ActivityMore_TimeInterval">Сколько секунд между каждым изменением?</string>
-  <string name="ActivityMore_Copyright">Copyright 2018\-2025 Матиас Кастильо Фелмер и авторы</string>
-  <string name="ActivityMore_SourceCode">Исходный код доступен на https://github.com/mcastillof/FakeTraveler.</string>
-  <string name="ActivityMore_Bugs">Сообщить об ошибках на https://github.com/mcastillof/FakeTraveler/issues</string>
-  <string name="ActivityMore_IconLicense">The launcher icon was created by @ArtistDev44 - thank you very much for your work!</string>
+  <string name="ActivityMore_Copyright">General Public License v3.0 - GNU Project</string>
+  <string name="ActivityMore_SourceCode">Source code https://github.com/Andrea-Bruno/GeoGhost</string>
+  <string name="ActivityMore_Bugs">Report any bug to https://github.com/Andrea-Bruno/GeoGhost/issues</string>
+  <string name="ActivityMore_IconLicense">This material is made available as open-source, promoting transparency, collaboration, and free access for everyone.</string>
   <string name="ActivityMore_HowToInstructions">Длительное нажатие, где вы хотите быть на карте и нажмите кнопку Применить. Место будет проверено один или несколько раз в соответствии с приведенной ниже конфигурацией. Пока изменение работает, вы можете изменить местоположение, просто нажав и удерживая его там, где вы находитесь. Чтобы прекратить издеваться над местоположением, нажмите кнопку Стоп. Примечание: вы должны включить Fake Traveler в качестве приложения с фиктивным местоположением в опциях для разработчиков.</string>
   <string name="ActivityMore_DMockLatLon">Mock movement? (1 / 1 000 000°, 0 = no)</string>
   <string name="ActivityMore_MapProvider">Map Provider (e.g., \'OpenStreetMap\')</string>
