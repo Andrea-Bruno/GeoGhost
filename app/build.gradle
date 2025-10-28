@@ -11,7 +11,7 @@ android {
         compileSdk = 36
         targetSdk = 36
         versionCode = 222
-        versionName = "2.2.2"
+        versionName = "25.10.28" // alias: "2.2.2"
     }
     buildTypes {
         release {
